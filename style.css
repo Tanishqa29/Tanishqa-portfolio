@@ -86,7 +86,7 @@ section {
 }
 
 /* Decorative Elements */
-/* .hero-decor {
+.hero-decor {
   position: absolute;
   border-radius: 50%;
   z-index: 0;
@@ -107,11 +107,11 @@ section {
   background: radial-gradient(circle, #f2a6c3, transparent);
   bottom: -80px;
   right: -60px;
-} */
+} 
 
 
 /* Mobile */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .skills-cards { flex-direction: column; align-items: center; }
 }
 .skill-card ul li {
@@ -121,8 +121,8 @@ section {
   padding: 6px 0;
   gap: 10px;
 }
-
-.skill-card ul li img {
+ */
+/* .skill-card ul li img {
   width: 20px;
   height: 20px;
   object-fit: contain;
@@ -133,7 +133,7 @@ section {
   width: 90px;
   height: auto;
   display: block;
-} */
+}  */
 
 .about-new {
   padding: 100px 20px;
