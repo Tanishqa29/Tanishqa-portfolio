@@ -112,28 +112,45 @@ section {
 
 /* Mobile */
 @media (max-width: 768px) {
-  .skills-cards { flex-direction: column; align-items: center; }
-}
-.skill-card ul li {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  padding: 6px 0;
-  gap: 10px;
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 140px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .hero-image img {
+    width: 80%;
+    max-width: 220px;
+    margin: 30px auto 0;
+    display: block;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons a {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 240px;
+  }
 }
 
-.skill-card ul li img {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
+:root {
+  --section-bg: #f8f9ff; /* light mode background */
 }
 
-.cert-badge {
-  margin-top: 15px;
-  width: 90px;
-  height: auto;
-  display: block;
-} 
+body.dark-mode {
+  --section-bg: #1c1c24; /* soft dark for dark mode */
+}
+.about-new {
+  background: var(--section-bg);
+}
 
 .about-new {
   padding: 100px 20px;
